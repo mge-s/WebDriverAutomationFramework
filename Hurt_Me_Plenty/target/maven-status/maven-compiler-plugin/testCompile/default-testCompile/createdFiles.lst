@@ -1,0 +1,13 @@
+steps\CommonSteps.class
+test\CommonConditions.class
+service\UserCreator.class
+page\LogInPage.class
+util\TestListener.class
+service\TestDataReader.class
+page\BasePage.class
+page\YOPMailPage.class
+driver\DriverSingleton.class
+page\GoogleCloudPricingCalculator.class
+test\PriceCheckTest.class
+model\User.class
+page\GoogleHomePage.class

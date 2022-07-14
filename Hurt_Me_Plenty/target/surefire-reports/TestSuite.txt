@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 27.248 s <<< FAILURE! - in TestSuite
+setUp(test.PriceCheckTest)  Time elapsed: 26.064 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div class="md-text ng-binding">...</div> is not clickable at point (66, 7). Other element would receive the click: <md-backdrop class="md-select-backdrop md-click-catcher ng-scope" style="position: fixed;"></md-backdrop>
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-52H7AGP', ip: '192.168.10.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9532e245c25ea765a0ed5c41d2ed8bec, clickElement {id=1b2485af-4985-4299-85dc-0a0e61205ed6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Kristina\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60140}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60140/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (9532e245c25ea765a0ed5c41d2ed8bec)] -> xpath: //*[@id="select_option_221"]/div[contains(text(),'Frankfurt')]]
+Session ID: 9532e245c25ea765a0ed5c41d2ed8bec
+
