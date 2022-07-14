@@ -17,20 +17,20 @@ import java.time.format.DateTimeFormatter;
 
 
 public class TestListener implements ITestListener {
-    private Logger log = LogManager.getRootLogger();
+    private final Logger log = LogManager.getRootLogger();
 
     public void onTestStart(ITestResult iTestResult) {
-        System.out.println("************************ Test started");
+      log.info("************************ Test started");
 
     }
 
     public void onTestSuccess(ITestResult iTestResult) {
-        System.out.println("********************TEST PASSED");
+        log.info("********************TEST PASSED");
 
     }
 
     public void onTestFailure(ITestResult iTestResult) {
-        System.out.println("*********************** Test failed");
+        log.info("*********************** Test failed");
         saveScreenshot();
     }
 
