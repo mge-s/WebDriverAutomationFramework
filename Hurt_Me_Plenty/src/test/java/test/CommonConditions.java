@@ -29,7 +29,7 @@ public class CommonConditions {
         commonSteps.switchBack();
         commonSteps.sendEmail();
         commonSteps.switchToYOPMail();
-        Thread.sleep(6000);
+        Thread.sleep(10000);
         commonSteps.checkMail();
     }
 
